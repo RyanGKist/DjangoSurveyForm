@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Success {{request.session.name}}</title>
+</head>
+<body>
+	<h4>Username = {{request.session.name}}</h4>
+	<h4>Location = {{request.session.location}}</h4>
+	<h4>Language = {{request.session.language}}</h4>
+	<h4>Comments = {{request.session.comments}}</h4>
+
+	<p> You have submitted {{request.session.counter}} forms.</p>
+
+	<a href = '/'>Return</a>
+
+</body>
+</html>
